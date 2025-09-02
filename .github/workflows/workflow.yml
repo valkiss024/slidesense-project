@@ -28,5 +28,4 @@ jobs:
           flake8 slidesense --count --max-complexity=10 --max-line-length=127 --statistics
       - name: Run tests
         run: |
-          cd ./slidesense
-          python manage.py test
+          python ./slidesense/manage.py test
